@@ -55,6 +55,18 @@
 @property(nonatomic, assign) unsigned int bhZ100KhzLeftLegEnCode;  //!< 100Khz左脚阻抗加密值(秤端上传值) 范围0 ~ 0xFFFFFFFF
 @property(nonatomic, assign) unsigned int bhZ100KhzRightLegEnCode; //!< 100Khz右脚阻抗加密值(秤端上传值) 范围0 ~ 0xFFFFFFFF
 @property(nonatomic, assign) unsigned int bhZ100KhzTrunkEnCode;    //!< 100Khz軀幹阻抗加密值(秤端上传值) 范围0 ~ 0xFFFFFFFF
+
+@property(nonatomic, assign) float bhSmoothlyK;                        //!< 平滑占比K(设备上传值)-result = lastValue * (1 - bhSmoothlyK) + bhSmoothlyK * currentValue
+@property(nonatomic, assign) unsigned int bhZ20KhzLeftArmEnCodeLast;   //!< 20Khz左手阻抗加密值(秤端上传值)上一次值 范围0 ~ 0xFFFFFFFF
+@property(nonatomic, assign) unsigned int bhZ20KhzRightArmEnCodeLast;  //!< 20Khz右手阻抗加密值(秤端上传值)上一次值 范围0 ~ 0xFFFFFFFF
+@property(nonatomic, assign) unsigned int bhZ20KhzLeftLegEnCodeLast;   //!< 20Khz左脚阻抗加密值(秤端上传值)上一次值 范围0 ~ 0xFFFFFFFF
+@property(nonatomic, assign) unsigned int bhZ20KhzRightLegEnCodeLast;  //!< 20Khz右脚阻抗加密值(秤端上传值)上一次值 范围0 ~ 0xFFFFFFFF
+@property(nonatomic, assign) unsigned int bhZ20KhzTrunkEnCodeLast;     //!< 20Khz軀幹阻抗加密值(秤端上传值)上一次值 范围0 ~ 0xFFFFFFFF
+@property(nonatomic, assign) unsigned int bhZ100KhzLeftArmEnCodeLast;  //!< 100Khz左手阻抗加密值(秤端上传值)上一次值 范围0 ~ 0xFFFFFFFF
+@property(nonatomic, assign) unsigned int bhZ100KhzRightArmEnCodeLast; //!< 100Khz右手阻抗加密值(秤端上传值)上一次值 范围0 ~ 0xFFFFFFFF
+@property(nonatomic, assign) unsigned int bhZ100KhzLeftLegEnCodeLast;  //!< 100Khz左脚阻抗加密值(秤端上传值)上一次值 范围0 ~ 0xFFFFFFFF
+@property(nonatomic, assign) unsigned int bhZ100KhzRightLegEnCodeLast; //!< 100Khz右脚阻抗加密值(秤端上传值)上一次值 范围0 ~ 0xFFFFFFFF
+@property(nonatomic, assign) unsigned int bhZ100KhzTrunkEnCodeLast;    //!< 100Khz軀幹阻抗加密值(秤端上传值)上一次值 范围0 ~ 0xFFFFFFFF
 /*     ______    __    __  .___________..______    __    __  .___________.
  *    /  __  \  |  |  |  | |           ||   _  \  |  |  |  | |           |
  *   |  |  |  | |  |  |  | `---|  |----`|  |_)  | |  |  |  | `---|  |----`
@@ -75,6 +87,39 @@
 @property(nonatomic, readonly, assign) float bhZ100KhzLeftLegDeCode;  //!< 100KHz左脚阻抗值(Ω)  100 ~ 700 for debug 通常不显示
 @property(nonatomic, readonly, assign) float bhZ100KhzRightLegDeCode; //!< 100KHz右脚阻抗值(Ω)  100 ~ 700 for debug 通常不显示
 @property(nonatomic, readonly, assign) float bhZ100KhzTrunkDeCode;    //!< 100KHz軀幹阻抗值(Ω)    5 ~ 100 for debug 通常不显示
+
+@property(nonatomic, readonly, assign) unsigned int bhZ20KhzLeftArmEnCodeNew;   //!< 20Khz左手阻抗加密值(平滑后加密值)上一次值 范围0 ~ 0xFFFFFFFF
+@property(nonatomic, readonly, assign) unsigned int bhZ20KhzRightArmEnCodeNew;  //!< 20Khz右手阻抗加密值(平滑后加密值)上一次值 范围0 ~ 0xFFFFFFFF
+@property(nonatomic, readonly, assign) unsigned int bhZ20KhzLeftLegEnCodeNew;   //!< 20Khz左脚阻抗加密值(平滑后加密值)上一次值 范围0 ~ 0xFFFFFFFF
+@property(nonatomic, readonly, assign) unsigned int bhZ20KhzRightLegEnCodeNew;  //!< 20Khz右脚阻抗加密值(平滑后加密值)上一次值 范围0 ~ 0xFFFFFFFF
+@property(nonatomic, readonly, assign) unsigned int bhZ20KhzTrunkEnCodeNew;     //!< 20Khz軀幹阻抗加密值(平滑后加密值)上一次值 范围0 ~ 0xFFFFFFFF
+@property(nonatomic, readonly, assign) unsigned int bhZ100KhzLeftArmEnCodeNew;  //!< 100Khz左手阻抗加密值(平滑后加密值)上一次值 范围0 ~ 0xFFFFFFFF
+@property(nonatomic, readonly, assign) unsigned int bhZ100KhzRightArmEnCodeNew; //!< 100Khz右手阻抗加密值(平滑后加密值)上一次值 范围0 ~ 0xFFFFFFFF
+@property(nonatomic, readonly, assign) unsigned int bhZ100KhzLeftLegEnCodeNew;  //!< 100Khz左脚阻抗加密值(平滑后加密值)上一次值 范围0 ~ 0xFFFFFFFF
+@property(nonatomic, readonly, assign) unsigned int bhZ100KhzRightLegEnCodeNew; //!< 100Khz右脚阻抗加密值(平滑后加密值)上一次值 范围0 ~ 0xFFFFFFFF
+@property(nonatomic, readonly, assign) unsigned int bhZ100KhzTrunkEnCodeNew;    //!< 100Khz軀幹阻抗加密值(平滑后加密值)上一次值 范围0 ~ 0xFFFFFFFF
+
+@property(nonatomic, readonly, assign) float bhZ20KhzLeftArmDeCodeNew;   //!< 20Khz左手阻抗值(平滑后解密值)-New(Ω)  100 ~ 700 for debug 通常不显示
+@property(nonatomic, readonly, assign) float bhZ20KhzRightArmDeCodeNew;  //!< 20Khz右手阻抗值(平滑后解密值)-New(Ω)  100 ~ 700 for debug 通常不显示
+@property(nonatomic, readonly, assign) float bhZ20KhzLeftLegDeCodeNew;   //!< 20Khz左脚阻抗值(平滑后解密值)-New(Ω)  100 ~ 700 for debug 通常不显示
+@property(nonatomic, readonly, assign) float bhZ20KhzRightLegDeCodeNew;  //!< 20Khz右脚阻抗值(平滑后解密值)-New(Ω)  100 ~ 700 for debug 通常不显示
+@property(nonatomic, readonly, assign) float bhZ20KhzTrunkDeCodeNew;     //!< 20Khz軀幹阻抗值(平滑后解密值)-New(Ω)    5 ~ 100 for debug 通常不显示
+@property(nonatomic, readonly, assign) float bhZ100KhzLeftArmDeCodeNew;  //!< 100KHz左手阻抗值(平滑后解密值)-New(Ω)  100 ~ 700 for debug 通常不显示
+@property(nonatomic, readonly, assign) float bhZ100KhzRightArmDeCodeNew; //!< 100KHz右手阻抗值(平滑后解密值)-New(Ω)  100 ~ 700 for debug 通常不显示
+@property(nonatomic, readonly, assign) float bhZ100KhzLeftLegDeCodeNew;  //!< 100KHz左脚阻抗值(平滑后解密值)-New(Ω)  100 ~ 700 for debug 通常不显示
+@property(nonatomic, readonly, assign) float bhZ100KhzRightLegDeCodeNew; //!< 100KHz右脚阻抗值(平滑后解密值)-New(Ω)  100 ~ 700 for debug 通常不显示
+@property(nonatomic, readonly, assign) float bhZ100KhzTrunkDeCodeNew;    //!< 100KHz軀幹阻抗值(平滑后解密值)-New(Ω)    5 ~ 100 for debug 通常不显示
+
+@property(nonatomic, readonly, assign) float bhZ20KhzLeftArmDeCodeLast;   //!< 20Khz左手阻抗值-Last(Ω)  100 ~ 700 for debug 通常不显示
+@property(nonatomic, readonly, assign) float bhZ20KhzRightArmDeCodeLast;  //!< 20Khz右手阻抗值-Last(Ω)  100 ~ 700 for debug 通常不显示
+@property(nonatomic, readonly, assign) float bhZ20KhzLeftLegDeCodeLast;   //!< 20Khz左脚阻抗值-Last(Ω)  100 ~ 700 for debug 通常不显示
+@property(nonatomic, readonly, assign) float bhZ20KhzRightLegDeCodeLast;  //!< 20Khz右脚阻抗值-Last(Ω)  100 ~ 700 for debug 通常不显示
+@property(nonatomic, readonly, assign) float bhZ20KhzTrunkDeCodeLast;     //!< 20Khz軀幹阻抗值-Last(Ω)    5 ~ 100 for debug 通常不显示
+@property(nonatomic, readonly, assign) float bhZ100KhzLeftArmDeCodeLast;  //!< 100KHz左手阻抗值-Last(Ω)  100 ~ 700 for debug 通常不显示
+@property(nonatomic, readonly, assign) float bhZ100KhzRightArmDeCodeLast; //!< 100KHz右手阻抗值-Last(Ω)  100 ~ 700 for debug 通常不显示
+@property(nonatomic, readonly, assign) float bhZ100KhzLeftLegDeCodeLast;  //!< 100KHz左脚阻抗值-Last(Ω)  100 ~ 700 for debug 通常不显示
+@property(nonatomic, readonly, assign) float bhZ100KhzRightLegDeCodeLast; //!< 100KHz右脚阻抗值-Last(Ω)  100 ~ 700 for debug 通常不显示
+@property(nonatomic, readonly, assign) float bhZ100KhzTrunkDeCodeLast;    //!< 100KHz軀幹阻抗值-Last(Ω)    5 ~ 100 for debug 通常不显示
 
 // 全身体组成参数
 @property(nonatomic, readonly, assign) int bhWeightKgLevel;                 //!< 体重標準: 當前值 Level(0-瘦 1-标准 2-偏胖)
