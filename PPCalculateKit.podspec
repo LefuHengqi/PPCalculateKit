@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PPCalculateKit"
-  spec.version      = "1.2.13"
+  spec.version      = "1.2.14"
   spec.summary      = "A short description of PPCalculateKit."
 
   # This description is used to generate tags and improve search results.
@@ -111,7 +111,7 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "icon.png"
   spec.resources = "PPCalculateKit.xcframework/**/*.{json}"
-  spec.resource_bundles = { "PPCalculateKit" => "PPCalculateKit.xcframework/**/*.xcprivacy" }
+  spec.resource_bundles = { "PPCalculateKit" => "PPCalculateKit.xcframework/ios-arm64/**/*.xcprivacy" }
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
