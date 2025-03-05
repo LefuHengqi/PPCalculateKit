@@ -76,6 +76,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) PPBodyDetailInfoModel  *PPBodyParam_smi;
 @property (nonatomic,strong) PPBodyDetailInfoModel  *PPBodyParam_WHR;
 
+@property (nonatomic,strong) PPBodyDetailInfoModel  *PPBodyParam_FootLen;
+
 /**
  "data": {
      "errorType": "PP_ERROR_TYPE_NONE",

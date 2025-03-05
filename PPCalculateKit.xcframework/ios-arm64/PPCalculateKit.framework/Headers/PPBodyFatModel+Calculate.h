@@ -26,7 +26,8 @@ NS_ASSUME_NONNULL_BEGIN
                         deviceMac:(NSString *)deviceMac
                            weight:(CGFloat)weight
                         heartRate:(NSInteger)heartRate
-                     andImpedance:(NSInteger)impedance;
+                     andImpedance:(NSInteger)impedance
+                        footLen:(NSInteger)footLen;
 
 /// 8电极
 - (instancetype)initWithUserModel:(PPBluetoothDeviceSettingModel *)userModel
@@ -52,7 +53,8 @@ NS_ASSUME_NONNULL_BEGIN
                            weight:(CGFloat)weight
                         heartRate:(NSInteger)heartRate
                      andImpedance:(NSInteger)impedance
-               impedance100EnCode:(NSInteger)impedance100EnCode;
+               impedance100EnCode:(NSInteger)impedance100EnCode
+                        footLen:(NSInteger)footLen;
 
 @end
 

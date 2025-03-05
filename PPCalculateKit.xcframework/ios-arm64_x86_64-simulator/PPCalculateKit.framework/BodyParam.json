@@ -821,6 +821,25 @@
       0,
       2
     ]
-  }
+  },
+    "BodyParam_FootLen": {
+      "bodyParamKey": "ppFootLen",
+      "unit": "cm",
+      "suggestionArray": [
+        "--"
+      ],
+      "evaluationArray": [
+        "--"
+      ],
+      "standardTitleArray": [
+        "--"
+      ],
+      "introductionString": "",
+      "bodyParamNameString": "FootLen_name",
+      "colorArray": [
+        "--"
+      ],
+      "watchfulArray": []
+    }
 }
 
