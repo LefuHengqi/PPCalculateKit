@@ -842,7 +842,7 @@
     "watchfulArray": []
   },
   "BodyParam_IdealWeight": {
-    "bodyParamKey": "ppBodyIdealWeight",
+    "bodyParamKey": "ppIdealWeightKg",
     "unit": "kg",
     "suggestionArray": [
       "--"
