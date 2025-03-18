@@ -822,24 +822,42 @@
       2
     ]
   },
-    "BodyParam_FootLen": {
-      "bodyParamKey": "ppFootLen",
-      "unit": "cm",
-      "suggestionArray": [
-        "--"
-      ],
-      "evaluationArray": [
-        "--"
-      ],
-      "standardTitleArray": [
-        "--"
-      ],
-      "introductionString": "",
-      "bodyParamNameString": "FootLen_name",
-      "colorArray": [
-        "--"
-      ],
-      "watchfulArray": []
-    }
+  "BodyParam_FootLen": {
+    "bodyParamKey": "ppFootLen",
+    "unit": "cm",
+    "suggestionArray": [
+      "--"
+    ],
+    "evaluationArray": [
+      "--"
+    ],
+    "standardTitleArray": [
+      "--"
+    ],
+    "introductionString": "",
+    "bodyParamNameString": "FootLen_name",
+    "colorArray": [
+      "--"
+    ],
+    "watchfulArray": []
+  },
+  "BodyParam_IdealWeight": {
+    "bodyParamKey": "ppBodyIdealWeight",
+    "unit": "kg",
+    "suggestionArray": [
+      "--"
+    ],
+    "evaluationArray": [
+      "--"
+    ],
+    "standardTitleArray": [
+      "--"
+    ],
+    "introductionString": "BodyIdealWeight_introduction",
+    "bodyParamNameString": "BodyIdealWeight_name",
+    "colorArray": [
+      "--"
+    ],
+    "watchfulArray": []
+  }
 }
-

@@ -33,6 +33,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) PPBodyDetailInfoModel  *PPBodyParam_MuscleControl;
 @property (nonatomic,strong) PPBodyDetailInfoModel  *PPBodyParam_BodyControlLiang;
 @property (nonatomic,strong) PPBodyDetailInfoModel  *PPBodyParam_Bodystandard;
+@property (nonatomic,strong) PPBodyDetailInfoModel  *PPBodyParam_IdealWeight;
 @property (nonatomic,strong) PPBodyDetailInfoModel  *PPBodyParam_BodyControl;
 @property (nonatomic,strong) PPBodyDetailInfoModel  *PPBodyParam_Bone;
 @property (nonatomic,strong) PPBodyDetailInfoModel  *PPBodyParam_BodyType;
