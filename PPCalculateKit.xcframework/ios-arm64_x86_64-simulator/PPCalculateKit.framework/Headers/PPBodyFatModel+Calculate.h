@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "PPCalculateKit.h"
 #import <PPBaseKit/PPBaseKit.h>
+#import "PPCalculateInputModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -20,41 +21,15 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)initWithUserModel:(PPBluetoothDeviceSettingModel *)userModel
                         andWeight:(CGFloat)weight;
 
-/// 4电极
-- (instancetype)initWithUserModel:(PPBluetoothDeviceSettingModel *)userModel
-                deviceCalcuteType:(PPDeviceCalcuteType)deviceCalcuteType
-                        deviceMac:(NSString *)deviceMac
-                           weight:(CGFloat)weight
-                        heartRate:(NSInteger)heartRate
-                     andImpedance:(NSInteger)impedance
-                        footLen:(NSInteger)footLen;
+/// 4电极 & 8电极 算法入口
+- (instancetype)initWithInputModel:(PPCalculateInputModel *)inputModel;
 
-/// 8电极
-- (instancetype)initWithUserModel:(PPBluetoothDeviceSettingModel *)userModel
-                        deviceMac:(NSString *)deviceMac
-                           weight:(CGFloat)weight
-                        heartRate:(NSInteger)heartRate
-                deviceCalcuteType:(PPDeviceCalcuteType)deviceCalcuteType
-              Z20KhzLeftArmEnCode:(NSInteger)z20KhzLeftArmEnCode
-             Z20KhzRightArmEnCode:(NSInteger)z20KhzRightArmEnCode
-              Z20KhzLeftLegEnCode:(NSInteger)z20KhzLeftLegEnCode
-             Z20KhzRightLegEnCode:(NSInteger)z20KhzRightLegEnCode
-                Z20KhzTrunkEnCode:(NSInteger)z20KhzTrunkEnCode
-             Z100KhzLeftArmEnCode:(NSInteger)z100KhzLeftArmEnCode
-            Z100KhzRightArmEnCode:(NSInteger)z100KhzRightArmEnCode
-             Z100KhzLeftLegEnCode:(NSInteger)z100KhzLeftLegEnCode
-            Z100KhzRightLegEnCode:(NSInteger)z100KhzRightLegEnCode
-                Z100KhzTrunkEnCode:(NSInteger)z100KhzTrunkEnCode;
 
-/// 拓展4电极-双频参数 可以传其他deviceCalcuteType 和/// 4电极算法一致
-- (instancetype)initWithUserModel:(PPBluetoothDeviceSettingModel *)userModel
-                deviceCalcuteType:(PPDeviceCalcuteType)deviceCalcuteType
-                        deviceMac:(NSString *)deviceMac
-                           weight:(CGFloat)weight
-                        heartRate:(NSInteger)heartRate
-                     andImpedance:(NSInteger)impedance
-               impedance100EnCode:(NSInteger)impedance100EnCode
-                        footLen:(NSInteger)footLen;
+
+/// 8电极-平滑算法（CF597专用）
+- (instancetype)initSmoothWithLastInputModel:(PPCalculateInputModel *)lastModel
+                           currentInputModel:(PPCalculateInputModel *)currentModel;
+
 
 @end
 

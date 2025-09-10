@@ -10,6 +10,7 @@
 
 #import "PPBodyFatModel+Calculate.h"
 #import "PPBodyDetailModel.h"
+#import "PPCalculateInputModel.h"
 
 #import <PPBaseKit/PPBaseKit.h>
 

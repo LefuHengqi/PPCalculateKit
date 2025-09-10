@@ -181,29 +181,20 @@
     "bodyParamKey": "ppWaterPercentage",
     "unit": "%",
     "suggestionArray": [
-      "water_leve1_suggestion",
-      "water_leve2_suggestion",
-      "water_leve3_suggestion"
+        "--"
     ],
     "evaluationArray": [
-      "water_leve1_evaluation",
-      "water_leve2_evaluation",
-      "water_leve3_evaluation"
+        "--"
     ],
     "standardTitleArray": [
-      "water_leve1_name",
-      "water_leve2_name",
-      "water_leve3_name"
+        "--"
     ],
     "introductionString": "water_introduction",
     "bodyParamNameString": "water_name",
     "colorArray": [
-      "#F5A623",
-      "#14CCAD",
-      "#0F9982"
+        "--"
     ],
     "watchfulArray": [
-      0
     ]
   },
   "BodyParam_Mus": {
@@ -688,30 +679,20 @@
     "bodyParamKey": "ppMusclePercentage",
     "unit": "%",
     "suggestionArray": [
-      "MusRate_leve1_suggestion",
-      "MusRate_leve2_suggestion",
-      "MusRate_leve3_suggestion"
+        "--"
     ],
     "evaluationArray": [
-      "MusRate_leve1_evaluation",
-      "MusRate_leve2_evaluation",
-      "MusRate_leve3_evaluation"
+        "--"
     ],
     "standardTitleArray": [
-      "MusRate_leve1_name",
-      "MusRate_leve2_name",
-      "MusRate_leve3_name"
+        "--"
     ],
     "introductionString": "MusRate_introduction",
     "bodyParamNameString": "MusRate_name",
     "colorArray": [
-      "#F5A623",
-      "#14CCAD",
-      "#0F9982"
+        "--"
     ],
-    "watchfulArray": [
-      0
-    ]
+    "watchfulArray": []
   },
   "BodyParam_BodyFatKg": {
     "bodyParamKey": "ppBodyfatKg",

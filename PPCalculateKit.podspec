@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PPCalculateKit"
-  spec.version      = "1.2.19"
+  spec.version      = "1.2.20"
   spec.summary      = "A short description of PPCalculateKit."
 
   # This description is used to generate tags and improve search results.

@@ -10,55 +10,7 @@
 		</data>
 		<key>BodyParam_HT_8.json</key>
 		<data>
-		y0NV2rfWInJVSbDXE1tdDWrlKS8=
-		</data>
-		<key>Headers/Bh1BodyCompositionEnum.h</key>
-		<data>
-		gUtjC4/4v2f8N/1bS40jWo9KSzY=
-		</data>
-		<key>Headers/Bh1TwoLegs140.h</key>
-		<data>
-		nXlRMYjPB14kMqcbtwmvzXXAugs=
-		</data>
-		<key>Headers/Bh2Body270.h</key>
-		<data>
-		ZgmPVYj+LfuarIiN1wckPTD1JJE=
-		</data>
-		<key>Headers/Bh2BodyCompositionEnum.h</key>
-		<data>
-		rbf0pKaEcDBS5GXGgQFL1/HKFXI=
-		</data>
-		<key>Headers/Bh3BodyCompositionEnum.h</key>
-		<data>
-		rbf0pKaEcDBS5GXGgQFL1/HKFXI=
-		</data>
-		<key>Headers/Bh3TwoLegs240.h</key>
-		<data>
-		Q537agmZ/tL/UQ7SsTPfdEU3hFY=
-		</data>
-		<key>Headers/Bh4BodyCompositionEnum.h</key>
-		<data>
-		rbf0pKaEcDBS5GXGgQFL1/HKFXI=
-		</data>
-		<key>Headers/Bh4TwoArms140.h</key>
-		<data>
-		nfvVvW8NYG7LAa1xjntq8NTMKu8=
-		</data>
-		<key>Headers/BhBody270.h</key>
-		<data>
-		kb7XI/ACRJz+gpcYur32bw/X0Tg=
-		</data>
-		<key>Headers/BhBodyCompositionEnum.h</key>
-		<data>
-		YyLwUZ0d8XLVxaCldmWScKekPys=
-		</data>
-		<key>Headers/BhTwoArms140.h</key>
-		<data>
-		QyHQL+BMOlJ29DcFmSHWErC2VEw=
-		</data>
-		<key>Headers/BhTwoLegs140.h</key>
-		<data>
-		AtZaPAFs1+mDLvrx5j2MXt/LSXk=
+		4LVHL7Ef2zXoCBvvbRb+Grg7mdw=
 		</data>
 		<key>Headers/PPBodyDetailInfoModel.h</key>
 		<data>
@@ -74,15 +26,19 @@
 		</data>
 		<key>Headers/PPBodyFatModel+Calculate.h</key>
 		<data>
-		gwLqjCguFdwBDyPqeS6R+wbcpAk=
+		nD8w5lbE8ALVwnbYVKCXzhEwCFg=
 		</data>
 		<key>Headers/PPCalculateDefine.h</key>
 		<data>
 		f8Cej5o8W+SGSrOgsJZG5eu8rdw=
 		</data>
+		<key>Headers/PPCalculateInputModel.h</key>
+		<data>
+		+vvFwQ34FoONiYxmaoQuIRomgEc=
+		</data>
 		<key>Headers/PPCalculateKit.h</key>
 		<data>
-		R2pLxgfqFfGxwrxRxWs6d7ggoxY=
+		hCIFecKH4BGjaw9YnM380j2W7Ro=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -92,13 +48,13 @@
 		<data>
 		YriJF7hvPTgPW6QeeBBrsYdV39E=
 		</data>
-		<key>PrivacyInfo.xcprivacy</key>
+		<key>PPBasicCalculateKit.bundle/Info.plist</key>
+		<data>
+		iQ3TOL5SzgGAKQSFdwzKVJVWitw=
+		</data>
+		<key>PPBasicCalculateKit.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		TACQAjNH8aZiPGPN1ibJPOzuF+k=
-		</data>
-		<key>abyonCalculate.podspec</key>
-		<data>
-		VUoyoPsNV9xaCxsKejf7/L72SeI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -118,143 +74,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			y0NV2rfWInJVSbDXE1tdDWrlKS8=
+			4LVHL7Ef2zXoCBvvbRb+Grg7mdw=
 			</data>
 			<key>hash2</key>
 			<data>
-			vTgdSTK4MCPWZ4DPmM9LEu4c2p5Tf6AUqtpCH7Jhkug=
-			</data>
-		</dict>
-		<key>Headers/Bh1BodyCompositionEnum.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gUtjC4/4v2f8N/1bS40jWo9KSzY=
-			</data>
-			<key>hash2</key>
-			<data>
-			sfuuoygw4iL2D+jAFiMolgr1e01AOvt9rltGjAChte8=
-			</data>
-		</dict>
-		<key>Headers/Bh1TwoLegs140.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nXlRMYjPB14kMqcbtwmvzXXAugs=
-			</data>
-			<key>hash2</key>
-			<data>
-			BTuQzuSd0ZRk5Jsqc7k/SDvhiNIS5s6p47mBVIfCaV4=
-			</data>
-		</dict>
-		<key>Headers/Bh2Body270.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ZgmPVYj+LfuarIiN1wckPTD1JJE=
-			</data>
-			<key>hash2</key>
-			<data>
-			wM/paa5IA0ky4WGzlbZk8BqqGcy8yu9DfsUGD1FHK14=
-			</data>
-		</dict>
-		<key>Headers/Bh2BodyCompositionEnum.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rbf0pKaEcDBS5GXGgQFL1/HKFXI=
-			</data>
-			<key>hash2</key>
-			<data>
-			iWkIzaaGCKGpfLQHhvJJDzFBd315YttgzlntlNB0X0s=
-			</data>
-		</dict>
-		<key>Headers/Bh3BodyCompositionEnum.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rbf0pKaEcDBS5GXGgQFL1/HKFXI=
-			</data>
-			<key>hash2</key>
-			<data>
-			iWkIzaaGCKGpfLQHhvJJDzFBd315YttgzlntlNB0X0s=
-			</data>
-		</dict>
-		<key>Headers/Bh3TwoLegs240.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Q537agmZ/tL/UQ7SsTPfdEU3hFY=
-			</data>
-			<key>hash2</key>
-			<data>
-			XJjHA6ah3VzgMhA8RIhELuALBJ3rkso6zeR8iI1F7+s=
-			</data>
-		</dict>
-		<key>Headers/Bh4BodyCompositionEnum.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rbf0pKaEcDBS5GXGgQFL1/HKFXI=
-			</data>
-			<key>hash2</key>
-			<data>
-			iWkIzaaGCKGpfLQHhvJJDzFBd315YttgzlntlNB0X0s=
-			</data>
-		</dict>
-		<key>Headers/Bh4TwoArms140.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nfvVvW8NYG7LAa1xjntq8NTMKu8=
-			</data>
-			<key>hash2</key>
-			<data>
-			ILkDfDWPsD0H7Ytbk4t4COsQZbTnah2YDrxjjqI3OXE=
-			</data>
-		</dict>
-		<key>Headers/BhBody270.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kb7XI/ACRJz+gpcYur32bw/X0Tg=
-			</data>
-			<key>hash2</key>
-			<data>
-			pfZ2nJwNlcoycK4SGxLwfZd/BEI2nku9nQwnZn8VO4Q=
-			</data>
-		</dict>
-		<key>Headers/BhBodyCompositionEnum.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YyLwUZ0d8XLVxaCldmWScKekPys=
-			</data>
-			<key>hash2</key>
-			<data>
-			2n8KrkB1XIqwtpE9B/iJi0bXjE5H7dfWXYGesmR0VQ4=
-			</data>
-		</dict>
-		<key>Headers/BhTwoArms140.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QyHQL+BMOlJ29DcFmSHWErC2VEw=
-			</data>
-			<key>hash2</key>
-			<data>
-			J7+TjkOejCwT1ppor8/AqL2dOGU0FyL7j8tWptmGSyM=
-			</data>
-		</dict>
-		<key>Headers/BhTwoLegs140.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			AtZaPAFs1+mDLvrx5j2MXt/LSXk=
-			</data>
-			<key>hash2</key>
-			<data>
-			mxJ1GtqDNaWEIGvxG2RFMe8k3DaZ1ThocDCooS+VsxE=
+			SCBhqa307F6noMFF//K5YB9TJiJbExXtTMfWTvfKyok=
 			</data>
 		</dict>
 		<key>Headers/PPBodyDetailInfoModel.h</key>
@@ -294,11 +118,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gwLqjCguFdwBDyPqeS6R+wbcpAk=
+			nD8w5lbE8ALVwnbYVKCXzhEwCFg=
 			</data>
 			<key>hash2</key>
 			<data>
-			AA9itsTbyR4M+uj/SdSFt0Pt2/IVe3gZOe5xazBnA1U=
+			6FJzy720RdNYoMmpIPhDlVKpcahlo5Xe41hPZ0UTJjw=
 			</data>
 		</dict>
 		<key>Headers/PPCalculateDefine.h</key>
@@ -312,15 +136,26 @@
 			2AmQ7MdcBFwZ4/CHNHkiS3xryOB8owG4vpMDV1ywT4Y=
 			</data>
 		</dict>
+		<key>Headers/PPCalculateInputModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+vvFwQ34FoONiYxmaoQuIRomgEc=
+			</data>
+			<key>hash2</key>
+			<data>
+			zvS4SbIw6MslbA7VyJ4HvVOSvrUli3LbXF86y8rVsbk=
+			</data>
+		</dict>
 		<key>Headers/PPCalculateKit.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			R2pLxgfqFfGxwrxRxWs6d7ggoxY=
+			hCIFecKH4BGjaw9YnM380j2W7Ro=
 			</data>
 			<key>hash2</key>
 			<data>
-			77wjfDNOanqOmAzO7XMfOXlYmExrtvWj9i3KdeLr1Cs=
+			gW9kTEXCmBt8I2by0Jw85XBig1bf5lqDkHdkdJdBolw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -334,7 +169,18 @@
 			VuH7IEQU4rFpwW/jtM2UcLcsS01FR4kyFKzdV48y/Go=
 			</data>
 		</dict>
-		<key>PrivacyInfo.xcprivacy</key>
+		<key>PPBasicCalculateKit.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iQ3TOL5SzgGAKQSFdwzKVJVWitw=
+			</data>
+			<key>hash2</key>
+			<data>
+			gkpcmjVXTl/UmjIzFblKD0PSihllNqm2I6+dvtlcORo=
+			</data>
+		</dict>
+		<key>PPBasicCalculateKit.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -343,17 +189,6 @@
 			<key>hash2</key>
 			<data>
 			j0y/Om8Yt96qvIZGvSVd9FPw0QDe8HTsBeREY0N76dU=
-			</data>
-		</dict>
-		<key>abyonCalculate.podspec</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VUoyoPsNV9xaCxsKejf7/L72SeI=
-			</data>
-			<key>hash2</key>
-			<data>
-			xeaOi9cd98jJQDdJqtM0N/egyqyNHqSl51hBItH3HkU=
 			</data>
 		</dict>
 	</dict>
