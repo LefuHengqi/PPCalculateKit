@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "PPBaseKit/PPBaseKit.h"
+#import "PPCalculateDefine.h"
 
 @interface PPCalculateInputModel : NSObject
 
@@ -44,6 +45,8 @@
 @property (nonatomic, assign) NSInteger impedance;
 /// 4电极- 双频加密阻抗-100频率字段
 @property (nonatomic, assign) NSInteger impedance100EnCode;
+/// 身体年龄计算方式
+@property (nonatomic, assign) PPBodyAgeMethod bodyAgeMethod;
 
 
 /// 8电极- 20KHz左手阻抗加密值(下位机上传值)
