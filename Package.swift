@@ -10,7 +10,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "PPCalculateKit",
-            url: "https://github.com/LefuHengqi/PPCalculateKit/releases/download/1.2.26/PPCalculateKit-1.2.26.xcframework.zip",
+            url: "https://github.com/LefuHengqi/PPCalculateKit/releases/download/1.2.27/PPCalculateKit-1.2.27.xcframework.zip",
             checksum: "23846094a3b507ddb5034b5bf06a83533e0444a71e08eed1bdc0e3aad4840b4d"
         )
     ]
